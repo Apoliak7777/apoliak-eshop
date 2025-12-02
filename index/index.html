@@ -1,0 +1,221 @@
+<!doctype html>
+<html lang="sk">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Apoliak Shops — Moderný e‑shop | Apoliak Sites</title>
+  <meta name="description" content="Apoliak Shops — moderný e-shop v čiernej téme so zelenými animáciami. Rýchly, prehľadný a optimalizovaný na konverzie." />
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <svg class="logo" viewBox="0 0 100 100" aria-hidden="true">
+          <defs>
+            <linearGradient id="g-shop" x1="0" x2="1">
+              <stop offset="0" stop-color="#00ff88"/>
+              <stop offset="1" stop-color="#00cc66"/>
+            </linearGradient>
+          </defs>
+          <rect x="8" y="8" width="84" height="84" rx="12" fill="none" stroke="url(#g-shop)" stroke-width="6"/>
+          <path d="M30 68 L44 32 L70 68 Z" fill="url(#g-shop)" opacity="0.95"></path>
+        </svg>
+        <div class="brand-text">
+          <h1>Apoliak Shops</h1>
+          <p class="tagline">E-shopy, ktoré predávajú — moderné, rýchle, krásne.</p>
+        </div>
+      </div>
+
+      <nav class="nav">
+        <a href="#products">Produkty</a>
+        <a href="#how">Ako to funguje</a>
+        <a href="#faq">FAQ</a>
+        <a href="#contact" class="btn-outline">Kontakt</a>
+      </nav>
+
+      <div class="header-actions">
+        <button class="btn-cart" id="cart-btn" aria-label="Košík">
+          <span class="cart-icon">🛒</span>
+          <span id="cart-count" class="cart-count">0</span>
+        </button>
+        <button class="hamburger" aria-label="Odomknúť menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero shop-hero" id="home">
+      <div class="container hero-inner">
+        <div class="hero-left">
+          <h2 class="headline">Moderný e‑shop. Rýchlo. Štýlovo. Predávajúco.</h2>
+          <p class="lead">Vytvorím e-shop v čiernom dizajne so zelenými animáciami — pre lokálny business alebo značku, ktorá chce rásť.</p>
+          <div class="cta">
+            <a href="#products" class="btn btn-primary">Pozrieť produkty</a>
+            <a href="#contact" class="btn btn-ghost">Kontaktovať</a>
+          </div>
+          <ul class="features-list">
+            <li>Rýchle načítanie a optimalizácia</li>
+            <li>Jednoduchý nákupný flow</li>
+            <li>Plná správa produktov & platby</li>
+          </ul>
+        </div>
+
+        <div class="hero-right">
+          <div class="device-mockup small">
+            <div class="screen neon">
+              <div class="mock-content">
+                <h3>Ukážka produktu</h3>
+                <div class="product-demo">
+                  <svg class="prod-illu" viewBox="0 0 200 140" aria-hidden="true">
+                    <defs>
+                      <linearGradient id="pg" x1="0" x2="1">
+                        <stop offset="0" stop-color="#00ff94"/>
+                        <stop offset="1" stop-color="#00cc66"/>
+                      </linearGradient>
+                    </defs>
+                    <rect x="12" y="12" width="176" height="116" rx="10" fill="rgba(0,0,0,0.2)"/>
+                    <circle cx="100" cy="60" r="26" fill="url(#pg)" opacity="0.12"/>
+                  </svg>
+                  <div class="demo-meta">
+                    <strong>Štýlový produkt</strong>
+                    <span>€49</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section id="products" class="section products">
+      <div class="container">
+        <h2 class="section-title">Náš sortiment</h2>
+        <div id="products-grid" class="products-grid">
+          <!-- Produkty sa generujú cez JS -->
+        </div>
+      </div>
+    </section>
+
+    <section id="how" class="section how">
+      <div class="container">
+        <h2 class="section-title">Ako to funguje</h2>
+        <div class="cards">
+          <article class="card">
+            <h3>1. Dohodneme sa</h3>
+            <p>Napíš mi, preberieme rozsah, dizajn a funkcie — všetko presne podľa teba.</p>
+          </article>
+          <article class="card">
+            <h3>2. Zapracujem eshop</h3>
+            <p>Pripravím produktové stránky, košík, platobné integrácie a administráciu.</p>
+          </article>
+          <article class="card">
+            <h3>3. Štart a podpora</h3>
+            <p>Nasadíme e-shop a zabezpečím podporu a údržbu podľa dohody.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="faq" class="section faq">
+      <div class="container">
+        <h2 class="section-title">Často kladené otázky</h2>
+        <div class="faq-list">
+          <details>
+            <summary>Koľko stojí e-shop?</summary>
+            <div class="faq-body">Cena závisí od rozsahu. Jednostránkový e‑shop od 500 €, komplexný e‑shop od 900 € (orientačne).</div>
+          </details>
+          <details>
+            <summary>Aké platby vieme prijať?</summary>
+            <div class="faq-body">Integrácia platobných brán (GoPay, Stripe, PayPal) alebo platba prevodom — podľa dohody.</div>
+          </details>
+          <details>
+            <summary>Môžem neskôr pridávať produkty sám?</summary>
+            <div class="faq-body">Áno — pridám jednoduchú administráciu alebo naučím, ako produkty spravovať.</div>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <div class="container">
+        <h2 class="section-title">Kontakt</h2>
+        <div class="contact-grid">
+          <form id="contact-form" class="contact-form" aria-label="Kontaktný formulár">
+            <label>
+              Meno
+              <input type="text" name="name" required placeholder="Tvoje meno">
+            </label>
+            <label>
+              Email
+              <input type="email" name="email" required placeholder="email@priklad.sk">
+            </label>
+            <label>
+              Správa
+              <textarea name="message" rows="4" required placeholder="Čo potrebuješ?"></textarea>
+            </label>
+            <div class="form-actions">
+              <button type="submit" class="btn btn-primary">Poslať dopyt</button>
+              <button type="button" class="btn btn-ghost" id="mailto-btn">Poslať email</button>
+            </div>
+            <div id="form-msg" role="status" aria-live="polite"></div>
+          </form>
+
+          <aside class="contact-info">
+            <h3>Dohodnime projekt</h3>
+            <p>Preferuješ Whatsapp, email alebo meeting? Napíš do správy — dohodneme rozsah a termín.</p>
+            <ul class="contact-list">
+              <li><strong>Apoliak Shops</strong></li>
+              <li>Email: <a href="mailto:apoliak@example.com">apoliak@example.com</a></li>
+            </ul>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Cart Sidebar -->
+  <aside id="cart" class="cart-sidebar" aria-hidden="true">
+    <div class="cart-header">
+      <h3>Košík</h3>
+      <button id="close-cart" class="close-btn" aria-label="Zatvoriť košík">✕</button>
+    </div>
+    <div id="cart-items" class="cart-items">
+      <p class="empty">Košík je prázdny.</p>
+    </div>
+    <div class="cart-footer">
+      <div class="cart-summary">
+        <span>Medzisúčet</span>
+        <strong id="cart-subtotal">€0.00</strong>
+      </div>
+      <button id="checkout-btn" class="btn btn-primary">Prejsť k platbe</button>
+      <button id="clear-cart" class="btn btn-ghost">Vymazať košík</button>
+    </div>
+  </aside>
+
+  <!-- Product Modal -->
+  <div id="product-modal" class="modal" aria-hidden="true">
+    <div class="modal-inner">
+      <button id="close-modal" class="close-btn" aria-label="Zatvoriť">✕</button>
+      <div id="modal-content"></div>
+    </div>
+  </div>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> Apoliak Shops — E‑shopy, ktoré predávajú.</p>
+      <nav class="socials">
+        <a href="#" aria-label="Instagram">IG</a>
+        <a href="#" aria-label="LinkedIn">IN</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
